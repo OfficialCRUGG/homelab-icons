@@ -1,0 +1,15 @@
+{
+    "name": "homelab-icons",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/OfficialCRUGG/homelab-icons",
+    "author": "OfficialCRUGG <ich@crugg.de>",
+    "license": "MIT",
+    "scripts": {
+        "convert:png": "node ./toPng.js",
+        "convert": "npm run convert:png"
+    },
+    "dependencies": {
+        "sharp": "^0.31.1"
+    }
+}
